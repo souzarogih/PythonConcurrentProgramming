@@ -17,13 +17,24 @@ $ python app.py
 ```
 ***
 
+### Resultado da programação paralela
+* Terminou em 20.84 seguntos. - padrão
+* Terminou em 18.55 seguntos. - threads 
+* Terminou em 6.27 seguntos. - multiprocessos
+
+### Dicas de uso da programação
+- Programação paralela = Threads e Multiprocessing
+- Programação assincrona = Uso intensivo de IO(file, database, apis, download de dados)
+
+
 ### Projeto
-- [ ] Threads
+- [x] Threads
 - [ ] Concorrências
-- [ ] Multiprocessamento
+- [x] Multiprocessamento
 - [ ] Programação Assíncrona
 - [ ] Cython
 - [ ] FastAPI
+- [ ] AsyncIO
 
 ## License
 >Enviar um e-mail para _higor.andrade@hotmail.com_ com o nome do projeto no título do 
